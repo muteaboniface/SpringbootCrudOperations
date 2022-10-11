@@ -30,7 +30,7 @@ This small project is a walkthrough aimed at learning basic API CRUD Operations.
     verifies
   
 ## Running the jar file
-  <code>java jarname.jar --server-root=8081</code>
+  <code>java -jar jarname.jar --server.root=8081</code>
   This will work iff there exists a server running as per configurations specified in the application.properties file.
   
 
