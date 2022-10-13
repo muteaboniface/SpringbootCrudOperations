@@ -4,6 +4,6 @@
 
 
 FROM openjdk:11
-ARG JAR_FILE=target/*.jar
+ARG JAR_FILE=target/*.jarjav
 COPY ${JAR_FILE} app.jar
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["a", "-jar", "app.jar"]
